@@ -131,7 +131,7 @@ if len(sys.argv) == 2:
 
 ############################ API Packages #############################
 # python libraries.py weezer
-"""
+
 import requests
 import sys
 import json
@@ -147,5 +147,5 @@ response = requests.get("https://itunes.apple.com/search?entity=song&limit=50&te
 o = response.json()
 for result in o["results"]:
     print(result["trackName"])
-"""
+
 #######################################################################

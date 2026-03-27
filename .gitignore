@@ -1,4 +1,10 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python
 __pycache__/
-.pytest_cache/
 *.pyc
-.ipynb_checkpoints
+.pytest_cache/
+
+# Env files
+.env

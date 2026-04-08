@@ -1,0 +1,6 @@
+pdfplumber
+tiktoken
+python-dotenv
+openai
+faiss-cpu
+numpy
